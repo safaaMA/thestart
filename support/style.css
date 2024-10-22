@@ -1,0 +1,168 @@
+.us {
+    width: 69%;
+    margin: 23px auto;
+    font-size: 19px;
+    text-align: -webkit-center;
+}
+
+.contact {
+    text-align: center;
+    margin: 22px 0px;
+}
+
+button {
+    width: 22%;
+    height: 48px;
+    border: none;
+    background: rgb(88, 79, 97);
+    font-size: 21px;
+    color: #fff;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 9s;
+}
+
+@media only screen and (max-width: 446px) {
+    .us {
+        width: 94%;
+    }
+
+    button {
+        width: 82%;
+    }
+}
+
+@media only screen and (max-width: 322px) {
+    .us {
+        font-size: 14px;
+    }
+
+}
+
+.form-supp {
+    /* position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; */
+    background: aliceblue;
+    text-align: center;
+    margin: 123px;
+    border-radius: 16px;
+}
+
+.back {
+    background: #00000094;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+form {
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+}
+
+.name-num,
+.prop-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    margin: 42px 0px;
+}
+
+.name,
+.prop,
+.numb,
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 0px;
+    width: 35%;
+}
+
+label {
+    margin: 0px 0px 9px 0px;
+}
+
+input {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #00000026;
+    border-radius: 14px;
+    text-align: end;
+    padding: 0px 10px;
+}
+
+textarea#id\=details {
+    width: 100%;
+    height: 46px;
+    border: 1px solid #00000026;
+    border-radius: 14px;
+    text-align: end;
+    padding: 8px 7px;
+}
+
+@media only screen and (max-width: 766px) {
+
+    .name-num,
+    .prop-details {
+        flex-direction: column;
+    }
+
+    .name,
+    .prop,
+    .numb,
+    .details {
+        width: 100%;
+    }
+
+    form {
+        margin: 0px;
+    }
+}
+
+@media only screen and (max-width: 534px) {
+    .form-supp {
+        margin: 21px;
+    }
+}
+
+.sub {
+    width: 48%;
+    margin: auto;
+}
+
+span.material-symbols-outlined.close {
+    display: block;
+    cursor: pointer;
+    background: none;
+}
+
+.xicon {
+    text-align: end;
+    margin: 0px 13px 0px 0px;
+    padding: 6px 0px 0px 0px;
+}
+
+::placeholder {
+    color: #000;
+}
+
+input[type="submit"] {
+    text-align: center;
+    cursor: pointer;
+    background: #fee;
+    transition: .9s;
+}
+
+input[type="submit"]:hover {
+    background: #0035ff;
+    color: white;
+    box-shadow: 1px 1px 6px black;
+
+}

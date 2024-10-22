@@ -1,0 +1,262 @@
+.image-profile {
+    width: 216px;
+}
+
+a.btn-boy {
+    border: 1px solid;
+    padding: 4px 18px;
+    margin: 0 12px;
+    border-radius: 7px;
+    background: blue;
+    color: #fff;
+}
+
+img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+input[type="text"] {
+    width: 65%;
+    margin: 0px 3px 0px 1px;
+    height: 44px;
+    border-radius: 14px;
+    border: 1px solid;
+    text-align: end;
+    padding: 7px;
+}
+
+.box-profil {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.bank-qus {
+    background: azure;
+    padding: 26px 24px;
+}
+
+.profile-box {
+    display: flex;
+    background: azure;
+    border-radius: 14px;
+    margin: 1px 19px;
+    padding: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: azure;
+    width: 50%;
+    padding: 14px 27px;
+    border-radius: 19px;
+    justify-content: flex-start;
+    border: 1px solid #6e00ff24;
+}
+
+.title-profile {
+    margin: 1px 49px;
+    text-align: end;
+}
+
+form.bink-text {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    height: 167px;
+    border-radius: 15px;
+}
+
+input[type="submit"] {
+    margin: 10px 0px;
+    background: none;
+    border: 1px solid black;
+    height: 51px;
+    border-radius: 11px;
+}
+
+.bank-qus {
+    width: 96%;
+    background: azure;
+    padding: 27px 24px;
+    text-align: end;
+    border-radius: 14px;
+    margin: 10px auto;
+}
+
+input.btn-sub {
+    width: 53px;
+    height: 43px;
+}
+
+.profile-box {
+    display: flex;
+    background: azure;
+    border-radius: 14px;
+    margin: 1px 19px;
+    padding: 20px;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.box-btn {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+    justify-content: space-evenly;
+}
+
+a.btn-section {
+    background: #870521;
+    padding: 21px;
+    border-radius: 12px;
+    color: white;
+    transition: .9s;
+}
+
+.filtter {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 5px 30px;
+}
+
+.title-sup {
+    text-align: center;
+    font-size: 24px;
+}
+
+label.label-unit {
+    margin: 0px 12px;
+}
+
+select#listing {
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.main-vid {
+    text-align: center;
+    margin: 41px 0px 3px 0px;
+}
+
+video {
+    width: 100%;
+    border-radius: 30px;
+}
+
+p.video-description {
+    text-align: center;
+    font-weight: 900;
+}
+
+.list-video {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    background: #870521;
+    width: 80%;
+    margin: 26px auto;
+    justify-content: space-between;
+    border-radius: 21px;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.list-video:hover {
+    background-color: brown;
+    box-shadow: 1px 1px 2px #6c8705;
+}
+
+.btn-section:hover {
+    background: #460310;
+}
+
+video.smal-vid {
+    width: 90%;
+    border-radius: 17px;
+}
+
+.vid {
+    text-align: end;
+    padding: 8px;
+    width: 20%;
+}
+
+
+.title-vid {
+    width: 79%;
+    color: #fff;
+    font-size: 19px;
+    padding: 6px;
+}
+
+.courses {
+    border: 1px;
+    width: 96%;
+    margin: 30px auto;
+    border-radius: 15px;
+}
+
+.bank-qus {
+    display: none;
+}
+
+li a {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 766px) {
+    .profile-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile {
+        width: 100%;
+    }
+
+    .box-btn {
+        width: 100%;
+        margin: 21px 0px;
+    }
+
+}
+
+@media only screen and (max-width: 439px) {
+    .profile {
+        flex-direction: column;
+    }
+
+    .title-profile {
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .box-btn {
+        width: 100%;
+        margin: 21px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        text-align: center;
+    }
+    a.btn-section {
+        margin: 5px 0px;
+    }
+}
+.name-user {
+    font-size: 19px;
+}

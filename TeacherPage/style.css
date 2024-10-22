@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+body {
+    background: #e8eeec;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navBar {
+    width: 98%;
+    background: #180831;
+    margin: 7px auto;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 17px;
+    color: white;
+}
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 40%;
+} */
+
+li {
+    display: block;
+}
+li a {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    width: 99%;
+    flex-direction: row-reverse;
+}
+
+.right-nav {
+    width: 283px;
+    background: aliceblue;
+    padding: 8px 0px;
+    border-radius: 14px;
+}
+
+.logo-nav {
+    background: #ededed7d;
+    width: 96%;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 19px;
+}
+
+.Acount-nav {
+    width: 96%;
+    margin: auto;
+}
+
+.img-acount {
+    width: 74px;
+}
+
+.img-account {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.img {
+    width: 133px;
+}
+
+.img-card {
+    width: 100%;
+    border-radius: 19px;
+}
+
+.box-acount {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: #3f4964;
+    padding: 13px;
+    font-size: 13px;
+    justify-content: space-between;
+    border-radius: 19px;
+    color: aliceblue;
+}
+
+.home {
+    border-right: 4px solid #00ff4e;
+}
+
+.box-list {
+    background: #eef2f6;
+    margin: 10px auto;
+    width: 96%;
+    border-radius: 15px;
+    padding: 5px 16px;
+    text-align: end;
+}
+
+.teachers-box {
+    background: aliceblue;
+    width: 99%;
+    border-radius: 15px;
+}
+
+.teacher-taitle {
+    text-align: end;
+    margin: 0px 23px;
+    color: #3f4964;
+}
+
+.serch {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 16px 0px;
+}
+
+form {
+    width: 100%;
+}
+
+.filter {
+    width: 61%;
+}
+
+input[type="search"] {
+    width: 87%;
+    height: 44px;
+    border-radius: 15px;
+    border: none;
+    text-align: end;
+    padding: 0px 3px;
+    color: #fff;
+    border: 1px solid black;
+}
+
+input.filter {
+    width: 80%;
+    background: none;
+    border: 1px solid #000000;
+    color: #000;
+}
+
+::placeholder {
+    color: rgb(0, 0, 0);
+}
+
+.set-teachers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.card-teacher {
+    width: 345px;
+    background: #180831;
+    color: white;
+    margin: 15px 12px 0px 11px;
+    padding: 9px;
+    text-align: end;
+    border-radius: 21px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: .7s ease-in-out;
+}
+
+.card-teacher:hover {
+    background: #1c0442;
+    box-shadow: 0px 2px 20px 1px blue;
+}
+
+a.btn-teacher {
+    color: black;
+    background: aliceblue;
+    padding: 0px 52px;
+    border-radius: 11px;
+    border-radius: 11px;
+    transition: all 0.8s ease;
+}
+
+.btn-teacher:hover {
+    background-color: rgb(43, 216, 72);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.name-teacher {
+    font-size: 12px;
+}
+
+.sbject-name {
+    font-size: 12px;
+    color: #ffffffb0;
+    margin: 0px 0px 9px 0px;
+}
+
+
+@media only screen and (min-width: 866px) {
+
+    a.btn-teacher {
+
+        padding: 0px 19px;
+    }
+}
+
+span.material-symbols-outlined {
+    display: none;
+}
+
+
+
+.material-symbols-outlined.account {
+    display: block;
+}
+
+.navBar {
+    margin: 6px auto;
+}
+
+.card-teacher {
+    width: 292px;
+}
+
+.fontsize {
+    font-size: 77px;
+}
+
+.img {
+    text-align: center;
+}
+
+.card-teacher {
+    width: 292px;
+    padding: 11px 0px;
+}
+
+.name-teacher {
+    font-size: 8px;
+}
+
+
+@media only screen and (max-width: 327px) {
+    .bord {
+        width: 92%;
+        /* margin: 0px auto; */
+    }
+
+    .card-teacher {
+        width: 100%;
+        padding: 11px 0px;
+        margin: 15px 0px 0px 0px;
+        flex-direction: column;
+    }
+
+    .box-cart-tech {
+        margin: 13px 0px;
+    }
+}
+
+div#box-list2 {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    align-items: center;
+}
+
+.name-user {
+    display: none;
+}
+
+@media only screen and (max-width: 766px) {
+    .right-nav {
+        display: none;
+        position: absolute;
+        box-shadow: -3px 2px 3px 0px #dbe6ff;
+    }
+
+    .teachers-box {
+        width: 100%;
+    }
+
+    /* .card-teacher {
+        width: 158px;
+    } */
+
+    a.btn-teacher {
+        padding: 0px 12px;
+    }
+
+    .btn {
+        text-align: -webkit-center;
+    }
+
+    .name-teacher {
+        font-size: 10px;
+    }
+
+    .sbject-name {
+        font-size: 9px;
+    }
+
+    input[type="search"] {
+        width: 93%;
+    }
+
+    span.material-symbols-outlined {
+        display: block;
+        text-align: end;
+    }
+
+    .account {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 16px;
+    }
+
+    .name-user {
+        margin: 0px 18px;
+        display: block;
+        font-size: 15px;
+    }
+
+    .material-symbols-outlined.account {
+        font-size: 33px;
+    }
+
+    div#box-list2 {
+        display: none;
+    }
+
+
+    nav {
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .box-list2 {
+        position: absolute;
+        background: #180831;
+        width: 97%;
+        top: 70px;
+        text-align: center;
+        left: 0;
+        border-radius: 15px;
+        right: 0;
+        margin: 2px 7px;
+    }
+
+    .information {
+        width: 100%;
+        padding: 8px;
+        border-radius: 14px;
+    }
+    .deeplist {
+        flex-direction: column;
+    }
+}
+
+
+@media only screen and (max-width: 439px) {
+    .main-btn {
+        text-align: center;
+        margin: 30px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    a.go {
+        margin: 8px 1px;
+    }
+
+    .cover {
+        width: 100%;
+        margin: 15px 15px;
+    }
+
+    .how {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cover.c1 {
+        margin: 13px 0px;
+    }
+}

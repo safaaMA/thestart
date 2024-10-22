@@ -1,0 +1,27 @@
+img {
+    width: 100%;
+}
+
+a.mtr-action {
+    background: bisque;
+    width: 203px;
+    font-size: 10px;
+    padding: 19px;
+    border-radius: 15px;
+    margin: 10px;
+}
+.hover {
+    transform: scale(1);
+    transition: .8s;
+}
+.hover:hover {
+    transform: scale(1.1);
+}
+
+.serch {
+    margin: 0px 0px 15px 0px;
+}
+
+.name-mtr {
+    text-align: center;
+}

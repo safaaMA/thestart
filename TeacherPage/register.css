@@ -1,0 +1,88 @@
+.title {
+    text-align: center;
+    margin: 15px 0px 21px 0px;
+}
+
+.one-box,
+.big-box {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #f0ffff;
+    width: 79%;
+    margin: 19px auto;
+    border-radius: 14px;
+    padding: 7px;
+}
+
+h1.name {
+    font-size: 28px;
+}
+
+.name-stud {
+    text-align: center;
+    background: azure;
+    padding: 4px 101px;
+    border-radius: 14px;
+}
+
+.title-tow {
+    text-align: center;
+    margin: 27px 0px 0px 0px;
+}
+
+.tow-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 19px 1px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.background {
+    background: aliceblue;
+    padding: 12px;
+    border-radius: 14px;
+}
+
+.three-box {
+    width: 79%;
+    padding: 18px;
+    margin: auto;
+    text-align: center;
+    border-radius: 14px;
+}
+
+li a {
+    color: white;
+}
+
+@media only screen and (max-width: 483px) {
+
+    .one-box,
+    .big-box {
+        width: 97%;
+    }
+
+    .name-stud {
+        text-align: center;
+        background: azure;
+        border-radius: 14px;
+        width: 100%;
+        margin: 10px;
+        padding: 0;
+    }
+
+    .name-subject,
+    .rate-subject,
+    .time-subject {
+        font-size: 12px;
+    }
+
+    .title-sup {
+        font-size: 11px;
+    }
+}
